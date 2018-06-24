@@ -3,10 +3,10 @@
 Make sure you are in root "su" or use "sudo" before each command.
 
 To makesure repos are there and up-to-date.
-
+...bash
 yum install epel-release
-
 yum update
+...
 
 Install everything you need for Jupyter Notebook.
 

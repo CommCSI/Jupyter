@@ -2,7 +2,7 @@
 
 **Make sure you are in root `su` or use `sudo` before each command**
 
-To makesure repos are there and up-to-date.
+To make sure repos are there and up-to-date.
 ```bash
 yum install epel-release
 yum update
@@ -28,4 +28,9 @@ pip install jupyter jupyter notebook
 To check version use:
 ```bash
 python --version && pip --version
+```
+##Starting Jupyter Notebook
+Goto terminal and type the following and you default browser will open up.
+```bash
+jupyter notebook
 ```

@@ -17,10 +17,10 @@ yum -y install gcc gcc-c++ kernel-devel install python-devel libxslt-devel libff
 >`ipapython 4.5.4 has requirement dnspython>=1.15, but you'll have dnspython 1.12.0 which is incompatible.`
 >                                                                                                          
 >Use to following to resolve errors.                                                                       
->```bash                                                                                                   
+```bash                                                                                                   
 sudo pip install pyudev==0.16.1                                                                           
 sudo pip install dnspython==1.15                                                                          
->```                                                                                                       
+```                                                                                                       
 Install Jupyter.
 ```bash
 pip install jupyter jupyter notebook

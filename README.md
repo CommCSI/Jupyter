@@ -2,12 +2,12 @@
 
 **Make sure you are in root `su` or use `sudo` before each command**
 
-**To make sure repos are there and up-to-date.
+1.To make sure repos are there and up-to-date.
 ```bash
 yum install epel-release
 yum update
 ```
-Install everything you need for Jupyter Notebook.
+2.Install everything you need for Jupyter Notebook.
 ```bash
 yum -y install gcc gcc-c++ kernel-devel install python-devel libxslt-devel libffi-devel openssl-devel python-pip
 ```
@@ -20,7 +20,7 @@ yum -y install gcc gcc-c++ kernel-devel install python-devel libxslt-devel libff
 >`sudo pip install pyudev==0.16.1`                                                                           
 >`sudo pip install dnspython==1.15`     
 
-Install Jupyter.
+3.Install Jupyter.
 ```bash
 pip install jupyter jupyter notebook
 ```
